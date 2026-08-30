@@ -10,7 +10,7 @@ export default function PostPage() {
 
   return (
     <article>
-      <h1>post.meta.title</h1>
+      <h1>{post.meta.title}</h1>
       <ReactMarkdown>{post.content}</ReactMarkdown>
     </article>
   );
