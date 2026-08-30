@@ -8,6 +8,7 @@
     "react": "npm:react@^18.3.1",
     "react-dom": "npm:react-dom@^18.3.1",
     "react-dom/client": "npm:react-dom@^18.3.1/client",
+    "react-markdown": "npm:react-markdown@^10.1.0",
     "react-router-dom": "npm:react-router-dom@^6.26.2",
     "vite": "npm:vite@^5.4.11",
     "@vitejs/plugin-react": "npm:@vitejs/plugin-react@^4.3.4"
