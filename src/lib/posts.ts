@@ -1,4 +1,4 @@
-import { extractYaml } from '@std/front-matter/yaml';
+import { extract } from '@std/front-matter/yaml';
 
 const modules = import.meta.glob('/src/md/*.md', {
   query: '?raw',
@@ -8,7 +8,7 @@ const modules = import.meta.glob('/src/md/*.md', {
 
 export function getAllPosts() {
   return Object.entries(modules).map(([path, raw]) => {
-    const { attrs, body } = extractYaml(raw);
+    const { attrs, body } = extract(raw);
     const slug = path.split('/').pop()!.replace(/\.md$/, '');
     return { slug, meta: attrs as Record<string, string>, content: body };
   });
