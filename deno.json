@@ -5,7 +5,7 @@
     "preview": "deno run -A --node-modules-dir npm:vite preview"
   },
   "imports": {
-    "gray-matter": "npm:gray-matter@^4.0.3",
+    "@std/front-matter": "jsr:@std/front-matter@^1.0.9",
     "react": "npm:react@^18.3.1",
     "react-dom": "npm:react-dom@^18.3.1",
     "react-dom/client": "npm:react-dom@^18.3.1/client",

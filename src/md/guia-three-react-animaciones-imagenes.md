@@ -1,3 +1,8 @@
+---
+title: Guia three.js
+date: 2026-8-29
+---
+
 # Guía: Animar imágenes en Three.js + React (cambio y movimiento con ease)
 
 Stack recomendado: **react-three-fiber** (R3F) + **@react-three/drei** + **react-spring** (o `easing` manual con `useFrame`). Con esto puedes mover una imagen y hacer *crossfade* a otra al mismo tiempo, con una curva de ease y duración exactas.
