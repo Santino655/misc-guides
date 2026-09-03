@@ -1,6 +1,8 @@
 import { Link } from 'react-router-dom';
 import { getAllPosts } from '../lib/posts.ts';
 
+// here test linker along criteria with github in cat-folder link must be coincided with Route and route with one
+// path
 export default function PostList() {
   const posts = getAllPosts()
     .sort((a, b) => new Date(b.meta.date).getTime() - new Date(a.meta.date).getTime());
