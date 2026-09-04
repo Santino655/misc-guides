@@ -1,3 +1,8 @@
+---
+title: Guia ngrok websockets
+date: 2026-9-4
+---
+
 # Guía: ngrok + WebSockets con Deno/Oak + interfaz React (Vite)
 
 ## 1. Arquitectura general

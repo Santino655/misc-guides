@@ -1,3 +1,8 @@
+---
+title: Guia autohost
+date: 2026-9-4
+---
+
 # Guía: API dinámica con Oak + Frontend con Vite + Ejecutable standalone para Windows (deno compile)
 
 ## 1. Idea general

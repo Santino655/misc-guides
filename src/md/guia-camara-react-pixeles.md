@@ -1,3 +1,8 @@
+---
+title: Guia web camera
+date: 2026-9-4
+---
+
 # Guía: Captura de cámara con MediaDevices, manipulación de píxeles en React y compresión a JSON
 
 Esta guía cubre el flujo completo: acceder a la cámara del celular desde el navegador, capturar frames, leer y manipular cada píxel, serializarlos a JSON con compresión, y (opcionalmente) delegar la compresión de video pesado a `ffmpeg`.
